@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nikolaos Balatos — Cybersecurity</title>
+  <meta name="description" content="Nikolaos Balatos — MSc Cybersecurity student at Aalborg University, Copenhagen, focused on security and online privacy.">
+  <meta property="og:title" content="Nikolaos Balatos — Cybersecurity">
+  <meta property="og:description" content="MSc Cybersecurity student in Copenhagen, focused on security and online privacy.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="nav__mark" aria-label="Home">NB<span>.</span></a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#path">Path</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle colour theme">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9A7 7 0 0 1 12 3Z" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="field" class="hero__field" aria-hidden="true"></canvas>
+      <div class="hero__inner">
+        <p class="eyebrow">MSc Cybersecurity student · Copenhagen, Denmark</p>
+        <h1 class="hero__title">Nikolaos<br><em>Balatos</em></h1>
+        <p class="hero__lede">
+          Cybersecurity student at <strong>Aalborg University</strong>, focused on
+          <strong>network security</strong> and <strong>online privacy</strong>. I'm curious about
+          how systems are attacked, how they're defended, and how people can stay in control of their data.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="#contact">Get in touch</a>
+          <a class="btn" href="#thesis">Read about my thesis</a>
+          <a class="btn btn--icon" href="https://github.com/NickBalatos" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a class="btn btn--icon" href="https://www.linkedin.com/in/nbalatos/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a class="btn btn--icon" href="https://open.spotify.com/user/cke1n241awshobk6e4w4fdzu8" target="_blank" rel="noopener" aria-label="Spotify">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24Zm5.5 17.3a.75.75 0 0 1-1.03.25c-2.82-1.72-6.37-2.11-10.55-1.16a.75.75 0 1 1-.33-1.46c4.57-1.04 8.5-.6 11.66 1.34.36.22.47.68.25 1.03Zm1.47-3.27a.94.94 0 0 1-1.29.31c-3.23-1.98-8.15-2.56-11.97-1.4a.94.94 0 1 1-.55-1.8c4.36-1.32 9.78-.68 13.5 1.6.44.27.58.85.31 1.29Zm.13-3.4C15.23 8.33 8.84 8.12 5.15 9.24a1.12 1.12 0 1 1-.65-2.15c4.24-1.29 11.29-1.04 15.75 1.6a1.12 1.12 0 0 1-1.15 1.93Z"/></svg>
+          </a>
+        </div>
+        <p class="hero__note mono">
+          <span class="dot"></span> The grid above follows your cursor. That's the only thing this page tracks, and it stays in your browser.
+        </p>
+      </div>
+    </section>
+
+    <!-- QUICK FACTS -->
+    <section class="facts" aria-label="Highlights">
+      <div class="fact"><span class="fact__num">MSc</span><span class="fact__label">Cybersecurity, Aalborg University</span></div>
+      <div class="fact"><span class="fact__num">10<small>/10</small></span><span class="fact__label">Privacy thesis grade</span></div>
+      <div class="fact"><span class="fact__num">AZ-900</span><span class="fact__label">Microsoft Certified: Azure Fundamentals</span></div>
+      <div class="fact"><span class="fact__num">8.0</span><span class="fact__label">IELTS overall</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <span class="section__index mono">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <p class="about__big">
+          I'm currently an MSc student in <em>Cybersecurity</em> at Aalborg University in Copenhagen,
+          building on a BSc in Informatics from the Ionian University in Greece.
+        </p>
+        <div class="about__body">
+          <p>
+            My bachelor's thesis looked at online privacy: how websites and third parties quietly follow people
+            across the web, which tools and habits actually protect them, and why so few users act on what
+            they know. The gap between knowing about a threat and doing something about it is what drew me into security.
+          </p>
+          <p>
+            During my degree I focused on the security side of computing, including cryptography, network and
+            communications security, information systems security, and privacy-enhancing technologies. I also
+            attended the IPICS intensive programme on information and communication security in Portugal.
+          </p>
+          <p>
+            I also maintain a personal <strong>cybersecurity homelab</strong>, where I implement and test
+            security techniques in a controlled environment. I work in Python, SQL and C++, and hold the
+            Microsoft Azure Fundamentals certification. My projects are on
+            <a href="https://github.com/NickBalatos" target="_blank" rel="noopener">GitHub</a>.
+          </p>
+          <p>
+            In my free time I read comics and follow the Marvel Cinematic Universe.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THESIS -->
+    <section id="thesis" class="section section--panel">
+      <div class="section__head">
+        <span class="section__index mono">02</span>
+        <h2>Featured research</h2>
+      </div>
+      <article class="thesis">
+        <div class="thesis__meta mono">
+          <span>BSc Thesis · 2025</span>
+          <span>Ionian University</span>
+          <span class="tag">Grade 10/10</span>
+        </div>
+        <h3 class="thesis__title">Automatic online tracking: technologies, protection methods and user awareness</h3>
+        <p class="thesis__abstract">
+          A mixed-methods study combining a 15-year literature review of tracking techniques (cookies,
+          fingerprinting, cross-site tracking) and their countermeasures (anti-tracking tools, VPNs, privacy browsers)
+          with a survey of 68 Greek internet users. The findings point to a clear <em>privacy paradox</em>:
+          people know tracking exists, but rarely act on it.
+        </p>
+
+        <div class="stats" id="stats">
+          <div class="stat" style="--v:79.4">
+            <div class="stat__row"><span class="stat__label">Know what web cookies are</span><span class="stat__val mono">79.4%</span></div>
+            <div class="stat__bar"><span></span></div>
+          </div>
+          <div class="stat" style="--v:85.3">
+            <div class="stat__row"><span class="stat__label">Accept cookies without reading, for faster access</span><span class="stat__val mono">85.3%</span></div>
+            <div class="stat__bar"><span></span></div>
+          </div>
+          <div class="stat" style="--v:76.5">
+            <div class="stat__row"><span class="stat__label">Feel they have low or very low control over their data</span><span class="stat__val mono">76.5%</span></div>
+            <div class="stat__bar"><span></span></div>
+          </div>
+          <div class="stat" style="--v:64.7">
+            <div class="stat__row"><span class="stat__label">Never use anti-tracking tools</span><span class="stat__val mono">64.7%</span></div>
+            <div class="stat__bar"><span></span></div>
+          </div>
+          <div class="stat" style="--v:17.6">
+            <div class="stat__row"><span class="stat__label">Can tell first-party from third-party cookies</span><span class="stat__val mono">17.6%</span></div>
+            <div class="stat__bar"><span></span></div>
+          </div>
+        </div>
+
+        <p class="thesis__takeaway">
+          <span class="mono">Takeaway →</span> Simpler policies, user education and transparent practices are needed
+          so people can make informed choices about their data.
+        </p>
+      </article>
+    </section>
+
+    <!-- PATH: education + experience -->
+    <section id="path" class="section">
+      <div class="section__head">
+        <span class="section__index mono">03</span>
+        <h2>Path so far</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="tl">
+          <span class="tl__date mono">2026 – present</span>
+          <div class="tl__body">
+            <h3>MSc in Cybersecurity <span class="tl__org">Aalborg University · Copenhagen</span></h3>
+            <p>Currently studying for a master's degree in cybersecurity.</p>
+          </div>
+        </li>
+        <li class="tl">
+          <span class="tl__date mono">09/2025 – 06/2026</span>
+          <div class="tl__body">
+            <h3>Military Postal Clerk <span class="tl__org">Hellenic Army · Alexandroupoli</span></h3>
+            <ul>
+              <li>Monitored operational workflows and proposed optimisations.</li>
+              <li>Used electronic tracking and inspection systems to test, measure and validate items.</li>
+              <li>Compiled and reported precise operational metrics.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tl">
+          <span class="tl__date mono">2025</span>
+          <div class="tl__body">
+            <h3>BSc (Ptychion) in Informatics <span class="tl__org">Ionian University · Corfu</span></h3>
+            <p>Final grade 7.22/10. Thesis on online tracking and privacy, graded 10/10.</p>
+            <div class="chips">
+              <span>Cryptography</span><span>Computer Security &amp; Data Protection</span>
+              <span>Network &amp; Communications Security</span><span>Information Systems Security</span>
+              <span>Privacy Enhancing Tools &amp; Policies</span><span>Networks I &amp; II</span>
+              <span>Operating Systems</span><span>Ethical &amp; Legal Aspects of ICT</span>
+            </div>
+          </div>
+        </li>
+        <li class="tl">
+          <span class="tl__date mono">2024</span>
+          <div class="tl__body">
+            <h3>IPICS Summer School <span class="tl__org">Vila Nova de Gaia · Portugal</span></h3>
+            <p>Intensive Programme on Information and Communication Security.</p>
+          </div>
+        </li>
+        <li class="tl">
+          <span class="tl__date mono">2019 – present</span>
+          <div class="tl__body">
+            <h3>Volunteer <span class="tl__org">Various organisations · Pieria</span></h3>
+            <ul>
+              <li><strong>IT &amp; Digital Systems</strong>, Holy Metropolis of Kitros, Katerini &amp; Platamon: upgraded information systems and networks, built databases and digital storage, and helped digitally catalogue religious artefacts.</li>
+              <li><strong>Fire Prevention</strong>, Pieria: monitoring shifts around Mount Olympus for early fire detection.</li>
+              <li><strong>Greek Mountaineering Association</strong>, Katerini: ski race support, organised hikes, trail signage.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section--panel">
+      <div class="section__head">
+        <span class="section__index mono">04</span>
+        <h2>Skills &amp; learning</h2>
+      </div>
+
+      <div class="skills">
+        <div class="skill-card">
+          <h3 class="mono">Programming</h3>
+          <p class="skill-card__list">Python<br>SQL<br>C++</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Cloud &amp; Tools</h3>
+          <p class="skill-card__list">Microsoft Azure<br>MS Office<br>Windows</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Focus areas</h3>
+          <p class="skill-card__list">Network security<br>Online privacy &amp; tracking<br>Cryptography</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Languages</h3>
+          <p class="skill-card__list">Greek, native<br>English, fluent<br><span class="muted">IELTS 8.0 (R8.5 · L8.0 · W7.5 · S8.0)</span></p>
+        </div>
+      </div>
+
+      <h3 class="subhead">Certifications &amp; courses</h3>
+      <ul class="certs">
+        <li><span class="certs__year mono">2025</span><span class="certs__name">Microsoft Certified: Azure Fundamentals</span><span class="certs__by">Microsoft</span></li>
+        <li><span class="certs__year mono">2025</span><span class="certs__name">Elements of AI</span><span class="certs__by">University of Helsinki</span></li>
+        <li><span class="certs__year mono">2025</span><span class="certs__name">Data Science Bootcamp (60 hrs)</span><span class="certs__by">Udemy</span></li>
+        <li><span class="certs__year mono">2024</span><span class="certs__name">Information &amp; Communication Security Intensive Programme</span><span class="certs__by">IPICS</span></li>
+        <li><span class="certs__year mono">2024</span><span class="certs__name">Understanding Machine Learning · Introduction to Cloud Computing</span><span class="certs__by">Grow with Google</span></li>
+        <li><span class="certs__year mono">2023</span><span class="certs__name">Short Course &amp; Workshop on Deep Learning and Computer Vision (21 hrs)</span><span class="certs__by">Aristotle University of Thessaloniki</span></li>
+        <li><span class="certs__year mono">2022</span><span class="certs__name">24th Infocom World Conference: Data &amp; AI / Big Data</span><span class="certs__by">Athens</span></li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <span class="section__index mono">05</span>
+      <h2 class="contact__title">Let's <em>talk.</em></h2>
+      <p class="contact__lede">Open to cybersecurity internships, student roles and projects in Copenhagen and beyond.</p>
+      <a class="contact__mail" href="mailto:nikolaosbalatos@gmail.com">nikolaosbalatos@gmail.com <span aria-hidden="true">↗</span></a>
+      <div class="contact__links">
+        <a class="btn" href="https://github.com/NickBalatos" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/nbalatos/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn" href="https://open.spotify.com/user/cke1n241awshobk6e4w4fdzu8" target="_blank" rel="noopener">Spotify ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer mono">
+    <span>© <span id="year">2026</span> Nikolaos Balatos</span>
+    <span>No cookies. No trackers. Just HTML.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
